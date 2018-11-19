@@ -18,5 +18,9 @@ def get_gene_sequence(filename):
             out.append([3])
             
     return np.array(out)
+
+def write_output(filename,res):
+    file = open(filename, "w")
+    file.write(res)
             
 
