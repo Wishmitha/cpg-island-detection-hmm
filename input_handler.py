@@ -3,7 +3,7 @@ import numpy as np
 
 def get_gene_sequence(filename):
     file = open(filename, "r")
-    gene = file.read().strip()
+    gene = file.read().strip().lower()
             
     out = []
     
