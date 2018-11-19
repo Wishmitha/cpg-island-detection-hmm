@@ -112,5 +112,5 @@ model.emissionprob_ = emission_probability
 
 in_text = inhd.get_gene_sequence("gene.txt")
 logprob, out_text = model.decode(in_text, algorithm="viterbi")
-print("Input:    %s"%", ".join([observations[x[0]] for x in in_text]))
-print("Output: %s"%", ".join([states[x][-1] for x in out_text]))
+print("Input:    %s"%" ".join([observations[x[0]] for x in in_text]))
+print("Output: %s"%" ".join([states[x][-1] for x in out_text]))
