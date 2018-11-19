@@ -2,8 +2,6 @@ import numpy as np
 from hmmlearn import hmm
 import input_handler as inhd
 
-#gene_seq = inhd.get_gene_sequence("gene.txt")
-
 states = ["A+", "C+", "G+", "T+", "A-", "C-", "G-", "T-"]
 n_states = len(states)
 
